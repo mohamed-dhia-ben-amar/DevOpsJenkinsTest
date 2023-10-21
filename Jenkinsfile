@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Checkout GIT') {
             steps{
-                git branch: 'nain',
+                git branch: 'main',
                 url: 'https://github.com/mohamed-dhia-ben-amar/DevOpsJenkinsTest.git'
             }
         }
